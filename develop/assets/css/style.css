@@ -58,6 +58,11 @@ form input {
         justify-content: center;
 }
 
+.dark {
+    background-color: black;
+    color: white;
+}
+
 #form {
     flex-direction: column;
     display: flex;
@@ -88,6 +93,9 @@ form input {
     width: 25px;
 }
 
-.box {
+.dark-box {
     border: 2px solid black;
+}
+.light-box {
+    border: 2px solid white;
 }
