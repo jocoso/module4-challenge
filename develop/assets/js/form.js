@@ -17,7 +17,7 @@ $(document).ready( function() {
         $('#cool-form')[0].reset();
 
 
-        window.location = "https://jocoso.github.io/module4-challenge/blog.html";
+        window.location.href = "https://jocoso.github.io/module4-challenge/blog.html";
         
     })
 })
