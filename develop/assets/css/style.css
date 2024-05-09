@@ -25,14 +25,20 @@ header {
 
 #circle {
 
-        width: 400px;
-        height: 400px; 
+        height: 35vw; 
+        width:35vw;
         border-radius: 50%; 
         background: hsl(67, 100%, 51%); 
 
         background-image: linear-gradient( 
                  to bottom, rgb(238, 255, 2) 0%, 
                  rgb(255, 170, 0) 100%); 
+                 background: -moz-linear-gradient(to bottom, rgb(238, 255, 2) 0%, 
+                 rgb(255, 170, 0) 100%);
+                 background: -webkit-gradient(to bottom, rgb(238, 255, 2) 0%, 
+                 rgb(255, 170, 0) 100%);
+
+
         color: white; 
         text-align: center;
         font-size: 30px;
