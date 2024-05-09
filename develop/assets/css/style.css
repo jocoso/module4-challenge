@@ -12,6 +12,17 @@ header {
     justify-content: flex-end;
 }
 
+form input[type="button"] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+form input {
+    width: 100%;
+}
+
 #picture {
     width: 50%;
     display: flex;
@@ -45,6 +56,23 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+}
+
+#form {
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+}
+
+#form form {
+    text-align: left;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    width: 85%;
 }
 
 #main-content {
