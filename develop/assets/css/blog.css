@@ -6,7 +6,7 @@ main {
 }
 
 #head {
-    height: 20vh;
+    height: 10vh;
     display: flex;
     position: relative;
 }
@@ -18,7 +18,9 @@ main {
 }
 
 #entries {
-    height: 60vh;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
 }
 
 #foot {
@@ -27,6 +29,7 @@ main {
     flex-direction: column;
     font-size: 12px;
     position: relative;
+    height: fit-content;
 }
 
 #foot div {
@@ -37,5 +40,36 @@ main {
 }
 
 .card {
-    
+    width: 95%;
+    height: 125px;
+    background-color: gray;
+    position: relative;
+
+}
+
+.card > .title:after{
+    font-size: medium;
+    content: "";
+    display: block;
+    width: 100%;
+}
+
+.solid-black-bottom {
+    border-bottom: 1px solid black;
+}
+
+.solid-white-bottom {
+    border-bottom: 1px solid white;
+}
+
+.card > .content {
+    tab-size: 10px;
+    font-size: small;
+}
+
+.card > .author {
+    font-size: small;
+    position:absolute;
+    bottom: 2px;
+    left: 4px;
 }
