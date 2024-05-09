@@ -1,9 +1,14 @@
+/* ELEMENT SELECTOR */
+
 main {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
 }
+
+
+/* ID SELECTOR */
 
 #head {
     height: 10vh;
@@ -13,8 +18,7 @@ main {
 
 #head > h1 {
     position: absolute;
-    left: 0;
-    
+    left: 0;   
 }
 
 #entries {
@@ -43,6 +47,8 @@ main {
     left: 40%;
     top: 20%;
 }
+
+/* CLASS SELECTORS */
 
 .card {
     width: 95%;

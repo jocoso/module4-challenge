@@ -10,27 +10,32 @@
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
   
-  <script src="./develop/assets/libs/jquery-3.7.1.min.js"></script>
+  <script src="./develop/assets/libs/jquery-3.7.1.min.js"></script> <!-- ADDED TO LIBS FILE -->
   <link rel="stylesheet" href="./develop/assets/css/style.css" />
-  <title>Task Board</title>
+  <title>Beautiful Form</title>
 </head>
 
 <body>
 
   <main class="dark-box">
 
+      <!-- HEADER & LIGHT SWITCH -->
       <header class="dark-box">
         <div class="light-icon">OFF</div>
       </header>
+      <!-- /HEADER & LIGHT SWITCH  -->
 
       <section id="main-content" class="dark-box">
 
+        <!-- YELLOW CIRCLE -->
         <section id="picture" class="dark-box">
           <div id="circle">
             My First Blog
           </div>
         </section>
+        <!-- /YELLOW CIRCLE -->
 
+        <!-- FORM -->
         <section id="form" class="dark-box">
           <h1>What's on your mind</h1>
           <form id="cool-form">
@@ -44,9 +49,10 @@
             <label for="content">Content: <span aria-label="required">*</span></label>
             <input type="text" name="content" id="content-input">
 
-            <input type="submit" value="Submit">
+            <input type="submit" class="dark-button" value="Submit">
           
           </form>
+          <!-- /FORM -->
         </section>
         
     </section> 
