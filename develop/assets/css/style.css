@@ -14,10 +14,31 @@ header {
 
 #picture {
     width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
 #form {
     width: 50%;
+}
+
+#circle {
+
+        width: 400px;
+        height: 400px; 
+        border-radius: 50%; 
+        background: hsl(67, 100%, 51%); 
+
+        background-image: linear-gradient( 
+                 to bottom, rgb(238, 255, 2) 0%, 
+                 rgb(255, 170, 0) 100%); 
+        color: white; 
+        text-align: center;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 #main-content {
@@ -34,5 +55,5 @@ header {
 }
 
 .box {
-    border: 3px solid black;
+    border: 2px solid black;
 }
