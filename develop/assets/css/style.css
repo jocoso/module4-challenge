@@ -12,7 +12,7 @@ header {
     justify-content: flex-end;
 }
 
-form input[type="button"] {
+form input[type="submit"] {
     width: 100%;
     background-color: black;
     color: white;
