@@ -15,7 +15,9 @@ $(document).ready( function() {
         localStorage.setItem("blogs", JSON.stringify(blogs));
 
         $('#cool-form')[0].reset();
+
+
+        window.location = "/blog.html";
         
     })
 })
-
