@@ -1,3 +1,4 @@
+/* ELEMENT SELECTORS */
 main {
     width: 100vw;
     height: 100vh;
@@ -14,14 +15,14 @@ header {
 
 form input[type="submit"] {
     width: 100%;
-    background-color: black;
-    color: white;
     margin-top: 50px;
 }
 
 form input {
     width: 100%;
 }
+
+/* ID SELECTORS */
 
 #picture {
     width: 50%;
@@ -58,11 +59,6 @@ form input {
         justify-content: center;
 }
 
-.dark {
-    background-color: black;
-    color: white;
-}
-
 #form {
     flex-direction: column;
     display: flex;
@@ -86,6 +82,13 @@ form input {
     flex-direction: row;
 }
 
+/* CLASS SELECTORS */
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
 .light-icon {
     background-image: url('https://www.freeiconspng.com/thumbs/sun-icon/sun-icon-31.png');
     background-size: 25px;
@@ -98,4 +101,14 @@ form input {
 }
 .light-box {
     border: 2px solid white;
+}
+
+.dark-button {
+    background-color: black;
+    color: white;
+}
+
+.light-button {
+    background-color: rgba(255, 255, 255, 0.749);
+    color:black;
 }
