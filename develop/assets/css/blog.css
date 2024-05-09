@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#head {
+    height: 10vh;
+    display: flex;
+    position: relative;
+}
+
+#head > h1 {
+    position: absolute;
+    left: 0;
+    
+}
+
+#entries {
+    height: 80vh;
+}
+
+#foot {
+    height: 10vh;
+}
+
+.card {
+    
+}
