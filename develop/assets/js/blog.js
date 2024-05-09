@@ -15,5 +15,5 @@ $(document).ready(function () {
 });
 
 function goBack() {
-    window.location = "/index.html";
+    window.location = "https://jocoso.github.io/module4-challenge";
 }
